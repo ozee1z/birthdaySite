@@ -254,7 +254,7 @@ footer {
     justify-content: center;
     padding: 2px;
     margin-top: 20px;
-    height: 50vh;
+    height: 40vh;
   }
 
   .balloon {
@@ -271,11 +271,23 @@ footer {
     animation: balloons 4s ease-in-out infinite;
   }
 
+  .balloon:after {
+    display: inline-block;
+    top: 50px;
+    right: 15px;
+    position: absolute;
+    height: 50px;
+    width: 1px;
+    margin: 0 auto;
+    content: "";
+    background: rgba(0, 0, 0, 0.2);
+  }
+
   .emoji {
     font-size: 12px;
     position: absolute;
-    top: 2%;
-    left: 1%;
+    top: 3%;
+    left: 1.5%;
     color: tomato;
   }
 }
