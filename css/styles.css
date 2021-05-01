@@ -254,13 +254,27 @@ footer {
     justify-content: center;
     padding: 2px;
     margin-top: 20px;
-    height: 50vh;
+    height: 100vh;
+  }
+
+  .balloon {
+    width: 30px;
+    height: 50px;
+    background: rgba(182, 15, 97, 0.9);
+    border-radius: 0;
+    border-radius: 80% 80% 80% 80%;
+    margin: 2px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    transition: transform 0.5s ease;
+    z-index: 10;
+    animation: balloons 4s ease-in-out infinite;
   }
 
   .emoji {
-    font-size: 16px;
+    font-size: 8px;
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 1%;
     color: tomato;
   }
