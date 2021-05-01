@@ -254,7 +254,7 @@ footer {
     justify-content: center;
     padding: 2px;
     margin-top: 20px;
-    height: 100vh;
+    height: 50vh;
   }
 
   .balloon {
@@ -272,9 +272,9 @@ footer {
   }
 
   .emoji {
-    font-size: 8px;
+    font-size: 12px;
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 1%;
     color: tomato;
   }
